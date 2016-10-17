@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SettingViewController.h
 //  MyApp
 //
 //  Created by 黄隆 on 16/9/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SettingViewController : UIViewController
 
 @end
-

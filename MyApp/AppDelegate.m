@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "CTMediator+HomeAction.h"
+#import "CTMediator+CustomerAction.h"
+#import "CTMediator+MessageAction.h"
+#import "CTMediator+SettingsAction.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIViewController *vc1 = [[CTMediator sharedInstance]mediator_homeViewControllerWithParams:@{}];
+    vc1.tabBarItem.title=@"首页";
+    UIViewController *vc2 = [[CTMediator sharedInstance]mediator_customerViewControllerWithParams:@{}];
+    vc2.tabBarItem.title=@"客户";
+    UIViewController *vc3 = [[CTMediator sharedInstance]mediator_messageViewControllerWithParams:@{}];
+    vc3.tabBarItem.title=@"消息";
+    UIViewController *vc4 = [[CTMediator sharedInstance]mediator_settingsViewControllerWithParams:@{}];
+    vc4.tabBarItem.title=@"设置";
+    
+    UITabBarController *tabs = [[UITabBarController alloc]init];
+    
+    self.window.rootViewController = tabs;
+    
+    tabs.viewControllers=@[vc1,vc2,vc3,vc4];
+    self.window.backgroundColor=[UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

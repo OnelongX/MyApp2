@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/CTMediatorLib" "${PODS_ROOT}/Headers/Public/HomeDemo" "${PODS_ROOT}/Headers/Public/OpenUDID" "${PODS_ROOT}/Headers/Public/UserData"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/CTMediatorLib" "$PODS_CONFIGURATION_BUILD_DIR/HomeDemo" "$PODS_CONFIGURATION_BUILD_DIR/OpenUDID" "$PODS_CONFIGURATION_BUILD_DIR/UserData"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/CTMediatorLib" -isystem "${PODS_ROOT}/Headers/Public/HomeDemo" -isystem "${PODS_ROOT}/Headers/Public/OpenUDID" -isystem "${PODS_ROOT}/Headers/Public/UserData"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"CTMediatorLib" -l"HomeDemo" -l"OpenUDID" -l"UserData" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,24 @@
+{
+  "name": "HomeDemo",
+  "version": "0.1.0",
+  "summary": "HomeDemo",
+  "description": "HomeDemo test",
+  "homepage": "https://github.com/OnelongX/HomeDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Onelong": "zzfeihua@163.com"
+  },
+  "source": {
+    "git": "https://github.com/OnelongX/HomeDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HomeDemo/Classes/**/*",
+  "resources": "HomeDemo/Resources/**/*",
+  "frameworks": "UIKit"
+}

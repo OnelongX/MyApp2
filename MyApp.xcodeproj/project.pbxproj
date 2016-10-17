@@ -7,25 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		984EC91B1D9B441F00BC2879 /* Target_Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC91A1D9B441F00BC2879 /* Target_Settings.m */; };
+		984EC91E1D9B443B00BC2879 /* CTMediator+SettingsAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC91D1D9B443B00BC2879 /* CTMediator+SettingsAction.m */; };
+		984EC9211D9B445B00BC2879 /* CTMediator+CustomerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC9201D9B445B00BC2879 /* CTMediator+CustomerAction.m */; };
+		984EC9241D9B448000BC2879 /* Target_Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC9231D9B448000BC2879 /* Target_Customer.m */; };
+		984EC9271D9B449C00BC2879 /* Target_Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC9261D9B449C00BC2879 /* Target_Message.m */; };
+		984EC92A1D9B44B500BC2879 /* CTMediator+MessageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC9291D9B44B500BC2879 /* CTMediator+MessageAction.m */; };
 		98C1FAA11D9ABF1100994A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C1FAA01D9ABF1100994A15 /* main.m */; };
 		98C1FAA41D9ABF1100994A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C1FAA31D9ABF1100994A15 /* AppDelegate.m */; };
-		98C1FAA71D9ABF1100994A15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C1FAA61D9ABF1100994A15 /* ViewController.m */; };
 		98C1FAAA1D9ABF1100994A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C1FAA81D9ABF1100994A15 /* Main.storyboard */; };
 		98C1FAAC1D9ABF1100994A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C1FAAB1D9ABF1100994A15 /* Assets.xcassets */; };
 		98C1FAAF1D9ABF1100994A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C1FAAD1D9ABF1100994A15 /* LaunchScreen.storyboard */; };
+		98C1FAC71D9AC3FA00994A15 /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C1FAC51D9AC3FA00994A15 /* CustomerViewController.m */; };
+		98C1FAC81D9AC3FA00994A15 /* CustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98C1FAC61D9AC3FA00994A15 /* CustomerViewController.xib */; };
+		98C1FACC1D9AC41900994A15 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C1FACA1D9AC41900994A15 /* SettingViewController.m */; };
+		98C1FACD1D9AC41900994A15 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98C1FACB1D9AC41900994A15 /* SettingViewController.xib */; };
+		98C1FAD11D9AC43E00994A15 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C1FACF1D9AC43E00994A15 /* MessageViewController.m */; };
+		98C1FAD21D9AC43E00994A15 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98C1FAD01D9AC43E00994A15 /* MessageViewController.xib */; };
+		E8ABCD744B3EF1C42765794F /* libPods-MyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1061F9EB548193F1EF0153F /* libPods-MyApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B26674A8ECF4FE07D355128 /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
+		984EC9191D9B441F00BC2879 /* Target_Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_Settings.h; path = Setting/Target_Settings.h; sourceTree = "<group>"; };
+		984EC91A1D9B441F00BC2879 /* Target_Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_Settings.m; path = Setting/Target_Settings.m; sourceTree = "<group>"; };
+		984EC91C1D9B443B00BC2879 /* CTMediator+SettingsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+SettingsAction.h"; path = "Setting/CTMediator+SettingsAction.h"; sourceTree = "<group>"; };
+		984EC91D1D9B443B00BC2879 /* CTMediator+SettingsAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+SettingsAction.m"; path = "Setting/CTMediator+SettingsAction.m"; sourceTree = "<group>"; };
+		984EC91F1D9B445B00BC2879 /* CTMediator+CustomerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+CustomerAction.h"; path = "Customer/CTMediator+CustomerAction.h"; sourceTree = "<group>"; };
+		984EC9201D9B445B00BC2879 /* CTMediator+CustomerAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+CustomerAction.m"; path = "Customer/CTMediator+CustomerAction.m"; sourceTree = "<group>"; };
+		984EC9221D9B448000BC2879 /* Target_Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_Customer.h; path = Customer/Target_Customer.h; sourceTree = "<group>"; };
+		984EC9231D9B448000BC2879 /* Target_Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_Customer.m; path = Customer/Target_Customer.m; sourceTree = "<group>"; };
+		984EC9251D9B449C00BC2879 /* Target_Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_Message.h; path = Message/Target_Message.h; sourceTree = "<group>"; };
+		984EC9261D9B449C00BC2879 /* Target_Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_Message.m; path = Message/Target_Message.m; sourceTree = "<group>"; };
+		984EC9281D9B44B500BC2879 /* CTMediator+MessageAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+MessageAction.h"; path = "Message/CTMediator+MessageAction.h"; sourceTree = "<group>"; };
+		984EC9291D9B44B500BC2879 /* CTMediator+MessageAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+MessageAction.m"; path = "Message/CTMediator+MessageAction.m"; sourceTree = "<group>"; };
 		98C1FA9C1D9ABF1100994A15 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C1FAA01D9ABF1100994A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98C1FAA21D9ABF1100994A15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98C1FAA31D9ABF1100994A15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		98C1FAA51D9ABF1100994A15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		98C1FAA61D9ABF1100994A15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		98C1FAA91D9ABF1100994A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98C1FAAB1D9ABF1100994A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98C1FAAE1D9ABF1100994A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98C1FAB01D9ABF1100994A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C1FAC41D9AC3FA00994A15 /* CustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomerViewController.h; path = Customer/CustomerViewController.h; sourceTree = "<group>"; };
+		98C1FAC51D9AC3FA00994A15 /* CustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomerViewController.m; path = Customer/CustomerViewController.m; sourceTree = "<group>"; };
+		98C1FAC61D9AC3FA00994A15 /* CustomerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomerViewController.xib; path = Customer/CustomerViewController.xib; sourceTree = "<group>"; };
+		98C1FAC91D9AC41900994A15 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = Setting/SettingViewController.h; sourceTree = "<group>"; };
+		98C1FACA1D9AC41900994A15 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = Setting/SettingViewController.m; sourceTree = "<group>"; };
+		98C1FACB1D9AC41900994A15 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingViewController.xib; path = Setting/SettingViewController.xib; sourceTree = "<group>"; };
+		98C1FACE1D9AC43E00994A15 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageViewController.h; path = Message/MessageViewController.h; sourceTree = "<group>"; };
+		98C1FACF1D9AC43E00994A15 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageViewController.m; path = Message/MessageViewController.m; sourceTree = "<group>"; };
+		98C1FAD01D9AC43E00994A15 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessageViewController.xib; path = Message/MessageViewController.xib; sourceTree = "<group>"; };
+		BE2B5CAA9AACA17D59AE0EFA /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D1061F9EB548193F1EF0153F /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8ABCD744B3EF1C42765794F /* libPods-MyApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31AC5756F6D258DD115586D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1061F9EB548193F1EF0153F /* libPods-MyApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E561F1946661BA06E44DDEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE2B5CAA9AACA17D59AE0EFA /* Pods-MyApp.debug.xcconfig */,
+				8B26674A8ECF4FE07D355128 /* Pods-MyApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		98C1FA931D9ABF1100994A15 = {
 			isa = PBXGroup;
 			children = (
 				98C1FA9E1D9ABF1100994A15 /* MyApp */,
 				98C1FA9D1D9ABF1100994A15 /* Products */,
+				4E561F1946661BA06E44DDEB /* Pods */,
+				31AC5756F6D258DD115586D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +112,9 @@
 		98C1FA9E1D9ABF1100994A15 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				98C1FAA21D9ABF1100994A15 /* AppDelegate.h */,
-				98C1FAA31D9ABF1100994A15 /* AppDelegate.m */,
-				98C1FAA51D9ABF1100994A15 /* ViewController.h */,
-				98C1FAA61D9ABF1100994A15 /* ViewController.m */,
-				98C1FAA81D9ABF1100994A15 /* Main.storyboard */,
-				98C1FAAB1D9ABF1100994A15 /* Assets.xcassets */,
-				98C1FAAD1D9ABF1100994A15 /* LaunchScreen.storyboard */,
-				98C1FAB01D9ABF1100994A15 /* Info.plist */,
+				98C1FAB91D9AC3AF00994A15 /* Setting */,
+				98C1FAB81D9AC3A400994A15 /* Customer */,
+				98C1FAB71D9AC39D00994A15 /* Message */,
 				98C1FA9F1D9ABF1100994A15 /* Supporting Files */,
 			);
 			path = MyApp;
@@ -74,9 +123,57 @@
 		98C1FA9F1D9ABF1100994A15 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98C1FAAB1D9ABF1100994A15 /* Assets.xcassets */,
+				98C1FAB01D9ABF1100994A15 /* Info.plist */,
+				98C1FAAD1D9ABF1100994A15 /* LaunchScreen.storyboard */,
+				98C1FAA81D9ABF1100994A15 /* Main.storyboard */,
+				98C1FAA31D9ABF1100994A15 /* AppDelegate.m */,
+				98C1FAA21D9ABF1100994A15 /* AppDelegate.h */,
 				98C1FAA01D9ABF1100994A15 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98C1FAB71D9AC39D00994A15 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				98C1FACE1D9AC43E00994A15 /* MessageViewController.h */,
+				98C1FACF1D9AC43E00994A15 /* MessageViewController.m */,
+				98C1FAD01D9AC43E00994A15 /* MessageViewController.xib */,
+				984EC9251D9B449C00BC2879 /* Target_Message.h */,
+				984EC9261D9B449C00BC2879 /* Target_Message.m */,
+				984EC9281D9B44B500BC2879 /* CTMediator+MessageAction.h */,
+				984EC9291D9B44B500BC2879 /* CTMediator+MessageAction.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		98C1FAB81D9AC3A400994A15 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				98C1FAC41D9AC3FA00994A15 /* CustomerViewController.h */,
+				98C1FAC51D9AC3FA00994A15 /* CustomerViewController.m */,
+				98C1FAC61D9AC3FA00994A15 /* CustomerViewController.xib */,
+				984EC91F1D9B445B00BC2879 /* CTMediator+CustomerAction.h */,
+				984EC9201D9B445B00BC2879 /* CTMediator+CustomerAction.m */,
+				984EC9221D9B448000BC2879 /* Target_Customer.h */,
+				984EC9231D9B448000BC2879 /* Target_Customer.m */,
+			);
+			name = Customer;
+			sourceTree = "<group>";
+		};
+		98C1FAB91D9AC3AF00994A15 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				98C1FAC91D9AC41900994A15 /* SettingViewController.h */,
+				98C1FACA1D9AC41900994A15 /* SettingViewController.m */,
+				98C1FACB1D9AC41900994A15 /* SettingViewController.xib */,
+				984EC9191D9B441F00BC2879 /* Target_Settings.h */,
+				984EC91A1D9B441F00BC2879 /* Target_Settings.m */,
+				984EC91C1D9B443B00BC2879 /* CTMediator+SettingsAction.h */,
+				984EC91D1D9B443B00BC2879 /* CTMediator+SettingsAction.m */,
+			);
+			name = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98C1FAB31D9ABF1100994A15 /* Build configuration list for PBXNativeTarget "MyApp" */;
 			buildPhases = (
+				FC9158C8ABD9249A70689456 /* 📦 Check Pods Manifest.lock */,
 				98C1FA981D9ABF1100994A15 /* Sources */,
 				98C1FA991D9ABF1100994A15 /* Frameworks */,
 				98C1FA9A1D9ABF1100994A15 /* Resources */,
+				08D386CDEA290529D7E32485 /* 📦 Embed Pods Frameworks */,
+				08923C194FC7003BDCE37A81 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,22 +238,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C1FACD1D9AC41900994A15 /* SettingViewController.xib in Resources */,
 				98C1FAAF1D9ABF1100994A15 /* LaunchScreen.storyboard in Resources */,
 				98C1FAAC1D9ABF1100994A15 /* Assets.xcassets in Resources */,
+				98C1FAD21D9AC43E00994A15 /* MessageViewController.xib in Resources */,
 				98C1FAAA1D9ABF1100994A15 /* Main.storyboard in Resources */,
+				98C1FAC81D9AC3FA00994A15 /* CustomerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08923C194FC7003BDCE37A81 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyApp/Pods-MyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08D386CDEA290529D7E32485 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyApp/Pods-MyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9158C8ABD9249A70689456 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		98C1FA981D9ABF1100994A15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98C1FAA71D9ABF1100994A15 /* ViewController.m in Sources */,
+				984EC92A1D9B44B500BC2879 /* CTMediator+MessageAction.m in Sources */,
+				984EC91E1D9B443B00BC2879 /* CTMediator+SettingsAction.m in Sources */,
+				98C1FAD11D9AC43E00994A15 /* MessageViewController.m in Sources */,
 				98C1FAA41D9ABF1100994A15 /* AppDelegate.m in Sources */,
 				98C1FAA11D9ABF1100994A15 /* main.m in Sources */,
+				984EC91B1D9B441F00BC2879 /* Target_Settings.m in Sources */,
+				98C1FAC71D9AC3FA00994A15 /* CustomerViewController.m in Sources */,
+				984EC9271D9B449C00BC2879 /* Target_Message.m in Sources */,
+				984EC9241D9B448000BC2879 /* Target_Customer.m in Sources */,
+				984EC9211D9B445B00BC2879 /* CTMediator+CustomerAction.m in Sources */,
+				98C1FACC1D9AC41900994A15 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +428,16 @@
 		};
 		98C1FAB41D9ABF1100994A15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2B5CAA9AACA17D59AE0EFA /* Pods-MyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H4839577YB;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyApp/CTMediator",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ways2u.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -281,11 +445,16 @@
 		};
 		98C1FAB51D9ABF1100994A15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B26674A8ECF4FE07D355128 /* Pods-MyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H4839577YB;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyApp/CTMediator",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ways2u.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -310,6 +479,7 @@
 				98C1FAB51D9ABF1100994A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

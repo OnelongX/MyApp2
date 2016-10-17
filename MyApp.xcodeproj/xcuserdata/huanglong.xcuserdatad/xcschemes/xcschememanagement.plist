@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CTMediator copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>CTMediator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>MyApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +23,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>98C1FA9B1D9ABF1100994A15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98C1FAE01D9ACECA00994A15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98C1FAEA1D9ACF4600994A15</key>
 		<dict>
 			<key>primary</key>
 			<true/>

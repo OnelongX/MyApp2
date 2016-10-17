@@ -1,0 +1,23 @@
+{
+  "name": "CTMediatorLib",
+  "version": "0.1.0",
+  "summary": "CTMediator组件化加载库",
+  "description": "CTMediator 组件化加载库。方便使用",
+  "homepage": "https://github.com/OnelongX/CTMediatorLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Onelong": "zzfeihua@163.com"
+  },
+  "source": {
+    "git": "https://github.com/OnelongX/CTMediatorLib.git",
+    "commit": "92da7484ea6c3f48adc58d087dbfa11001353368"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "CTMediatorLib/Classes/**/*"
+}

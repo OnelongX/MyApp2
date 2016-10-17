@@ -1,0 +1,37 @@
+{
+  "name": "UserData",
+  "version": "0.1.0",
+  "summary": "UserData.",
+  "description": "加密库工具库.",
+  "homepage": "https://github.com/OnelongX/UserData",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Onelong": "zzfeihua@163.com"
+  },
+  "source": {
+    "git": "https://github.com/OnelongX/UserData.git",
+    "tag": "0.1.0"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UserData/Classes/**/*",
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "Security",
+    "SystemConfiguration"
+  ],
+  "dependencies": {
+    "OpenUDID": [
+      "~> 1.0.0"
+    ],
+    "AFNetworking": [
+      "~> 3.0"
+    ]
+  }
+}
